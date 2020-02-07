@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      foreign module
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<h2>Hola mundo desde módulo externo separado</h2>
+  <nav>
+    <p><a [routerLink]="'foreignpage1'" routerLinkActive="active">Go to foreign page 1</a></p>
+    <p><a [routerLink]="'foreignpage2'" routerLinkActive="active">Go to foreign page 2</a></p>
+  </nav>
+</ion-content>
+

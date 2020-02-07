@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./dist",
     "sourceMap": true,
     "declaration": false,
     "module": "esnext",
@@ -19,6 +19,8 @@
       "dom"
     ]
   },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"],
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true

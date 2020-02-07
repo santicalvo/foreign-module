@@ -9,6 +9,7 @@ import { ForeignModulePageRoutingModule } from './foreign-module-routing.module'
 
 import {Foreignpage1Component} from './foreignpage1/foreignpage1.component';
 import {Foreignpage2Component} from './foreignpage2/foreignpage2.component';
+import {ForeignModulePage} from "./foreign-module.page";
 
 @NgModule({
   imports: [
